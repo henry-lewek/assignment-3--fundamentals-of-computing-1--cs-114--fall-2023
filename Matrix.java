@@ -1,5 +1,4 @@
 
-
 public class Matrix {
   private int[][] matrix;
   String PURPLE = "\u001B[35m";
