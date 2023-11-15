@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class Matrix {
   private int[][] matrix;
@@ -10,7 +10,7 @@ public class Matrix {
     matrix[x2][y2] = temp;
   }
 
-public Matrix(int size){
+public Matrix(int size) {
   matrix = new int[size][size];
 }
 
@@ -32,7 +32,7 @@ public Matrix(int size){
     } catch (NumberFormatException arr) {
         System.out.println("enter a positive number.");
         return -1; // Return a int value to indicate an error
-    }
+      }
 }
 
   // ----------------------------
@@ -91,4 +91,4 @@ public Matrix(int size){
       }
     }
   }
-    }
+}
